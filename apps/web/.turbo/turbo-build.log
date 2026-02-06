@@ -1,0 +1,46 @@
+[2J[m[H]0;C:\Windows\system32\cmd.exe [?25h[25l
+> web@0.1.0 build D:\STAGE PFE\monorepo\turborepo-with-hono\apps\web
+> next build[56X[5;1H[?25h[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br
+owser-mapping@latest -D`[K
+ [1m[93m⚠[m Invalid next.config.js options detected: 
+ [1m[93m⚠[m     Unrecognized key(s) in object: 'turbo' at "experimental"[12X
+ [1m[93m⚠[m See more info here: https://nextjs.org/docs/messages/invalid-next-config
+   [1m[38;2;173;127;168m▲ Next.js 16.0.10[m (Turbopack)
+[25l   - Environments: .env.local[10X
+   - Experiments (use with caution):   
+     ? [9mturbo[29m (invalid experimental key)[15;1H[?25h [1m[97m [m Creating an optimized production build ...
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br
+owser-mapping@latest -D`[K
+ [1m[92m✓[m Compiled successfully in 1742.5ms
+ [1m[97m [m Running TypeScript  [36m.[?25l[m[K[143C [1m[97m [m Running TypeScript  [36m..[m[K[143C [1m[97m [m Running TypeScript  [36m...[m[K[143C [1m[97m [m Running TypeScript  [36m.[m[K[143C [1m[97m [m Running TypeScript  [36m..[m[K[143C [1m[97m [m Running TypeScript  [36m...[m[K[143C [1m[97m [m Running TypeScript  [36m.[m[K[143C [1m[97m [m Running TypeScript  [36m..[m[K[143C [1m[97m [m Running TypeScript  [36m...[m[K[143C [1m[92m✓[m Finished TypeScript in 1828.5ms[K
+ [1m[97m [m Collecting page data using 11 workers  [36m.[m[K[100C[K[143C [1m[97m [m Collecting page data using 11 workers  [36m..[m[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Base
+line data, please update: `npm i baseline-browser-mapping@latest -D`[K
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br
+owser-mapping@latest -D`[K[119C
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br
+owser-mapping@latest -D`[K
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br
+owser-mapping@latest -D`[K[119C
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br
+owser-mapping@latest -D`[K
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br
+owser-mapping@latest -D`[K
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br
+owser-mapping@latest -D`[119C
+[143C[K[143C [1m[97m [m Collecting page data using 11 workers  [36m...[m[K[143C [1m[97m [m Collecting page data using 11 workers  [36m.[m [1m[92m✓[m Collecting page data using 11 workers in 648.2ms[K[?25h
+ [1m[97m [m Generating static pages using 11 workers (0/7)  [36m[    ][?25l[m[K[143C[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br[?25h
+owser-mapping@latest -D`
+ [1m[92m✓[m Generating static pages using 11 workers (7/7) in 559.6ms
+ [1m[97m [m Finalizing page optimization  [36m.[?25l[m [1m[92m✓[m Finalizing page optimization in 9.8ms[K[?25h
+
+[4mRoute (app)[24m[K
+┌ ○ /
+├ ○ /_not-found
+├ ○ /app/dashboard
+├ ○ /auth/login
+├ ○ /auth/signup
+└ ○ /signup
+
+
+○  (Static)  prerendered as static content
+

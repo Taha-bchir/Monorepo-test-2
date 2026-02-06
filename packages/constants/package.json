@@ -1,0 +1,9 @@
+{
+    "name": "@repo/constants",
+    "version": "0.0.0",
+    "main": "./src/constants.ts",
+    "types": "./src/constants.ts",
+    "exports": {
+        ".": "./src/constants.ts"
+    }
+}

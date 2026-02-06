@@ -1,0 +1,23 @@
+{
+    "extends": "@repo/typescript-config/base.json",
+    "compilerOptions": {
+        "lib": [
+            "ES2015",
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "jsx": "react-jsx",
+        "module": "esnext",
+        "target": "esnext",
+        "moduleResolution": "bundler",
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "src"
+    ]
+}
