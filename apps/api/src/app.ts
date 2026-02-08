@@ -2,7 +2,12 @@ import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { loadMiddlewares } from "./utils/autoloadMiddlewares.js";
 import { loadRoutes } from "./utils/autoload.js";
-import { resolve } from "node:path";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+// Get __dirname equivalent in ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 export async function createApp() {
   const app = new Hono();
@@ -26,10 +31,11 @@ export async function createApp() {
     })
   );
 
-  await loadMiddlewares(app, resolve("src/middlewares"));
+  // Use __dirname to resolve paths relative to this file
+  await loadMiddlewares(app, join(__dirname, "middlewares"));
 
   const api = new Hono();
-  await loadRoutes(api, resolve("src/routes"));
+  await loadRoutes(api, join(__dirname, "routes"));
 
   app.route("/api/v1", api);
 
