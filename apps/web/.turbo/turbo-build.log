@@ -1,37 +1,99 @@
-[2J[m[H]0;C:\Windows\system32\cmd.exe [?25h[25l
-> web@0.1.0 build D:\STAGE PFE\monorepo\turborepo-with-hono\apps\web
-> next build[56X[5;1H[?25h[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br
-owser-mapping@latest -D`[K
- [1m[93m⚠[m Invalid next.config.js options detected: 
- [1m[93m⚠[m     Unrecognized key(s) in object: 'turbo' at "experimental"[12X
- [1m[93m⚠[m See more info here: https://nextjs.org/docs/messages/invalid-next-config
+[2J[m[2;1H> web@0.1.0 build D:\STAGE PFE\m
+onorepo - Copy\turborepo-with-ho
+no\apps\web
+> next build[7;1H]0;C:\Windows\system32\cmd.exe[?25h[baseline-browser-mapping] The d
+ata in this module is over two m
+onths old.  To ensure accurate B
+aseline data, please update: `np
+m i baseline-browser-mapping@lat
+est -D`
+ [1m[93m⚠[m Invalid next.config.js option
+s detected:
+ [1m[93m⚠[m     Unrecognized key(s) in ob
+ject: 'turbo' at "experimental" 
+ [1m[93m⚠[m See more info here: https://n
+extjs.org/docs/messages/invalid-
+next-config
    [1m[38;2;173;127;168m▲ Next.js 16.0.10[m (Turbopack)
-[25l   - Environments: .env.local[10X
-   - Experiments (use with caution):   
-     ? [9mturbo[29m (invalid experimental key)[15;1H[?25h [1m[97m [m Creating an optimized production build ...
-[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br
-owser-mapping@latest -D`[K
- [1m[92m✓[m Compiled successfully in 1742.5ms
- [1m[97m [m Running TypeScript  [36m.[?25l[m[K[143C [1m[97m [m Running TypeScript  [36m..[m[K[143C [1m[97m [m Running TypeScript  [36m...[m[K[143C [1m[97m [m Running TypeScript  [36m.[m[K[143C [1m[97m [m Running TypeScript  [36m..[m[K[143C [1m[97m [m Running TypeScript  [36m...[m[K[143C [1m[97m [m Running TypeScript  [36m.[m[K[143C [1m[97m [m Running TypeScript  [36m..[m[K[143C [1m[97m [m Running TypeScript  [36m...[m[K[143C [1m[92m✓[m Finished TypeScript in 1828.5ms[K
- [1m[97m [m Collecting page data using 11 workers  [36m.[m[K[100C[K[143C [1m[97m [m Collecting page data using 11 workers  [36m..[m[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Base
-line data, please update: `npm i baseline-browser-mapping@latest -D`[K
-[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br
-owser-mapping@latest -D`[K[119C
-[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br
-owser-mapping@latest -D`[K
-[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br
-owser-mapping@latest -D`[K[119C
-[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br
-owser-mapping@latest -D`[K
-[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br
-owser-mapping@latest -D`[K
-[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br
-owser-mapping@latest -D`[119C
-[143C[K[143C [1m[97m [m Collecting page data using 11 workers  [36m...[m[K[143C [1m[97m [m Collecting page data using 11 workers  [36m.[m [1m[92m✓[m Collecting page data using 11 workers in 648.2ms[K[?25h
- [1m[97m [m Generating static pages using 11 workers (0/7)  [36m[    ][?25l[m[K[143C[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-br[?25h
-owser-mapping@latest -D`
- [1m[92m✓[m Generating static pages using 11 workers (7/7) in 559.6ms
- [1m[97m [m Finalizing page optimization  [36m.[?25l[m [1m[92m✓[m Finalizing page optimization in 9.8ms[K[?25h
+   - Environments: .env.local
+   - Experiments (use with cauti
+on):
+     ? [9mturbo[29m (invalid experiment
+al key)
+
+ [1m[97m [m Creating an optimized product
+ion build ...
+[baseline-browser-mapping] The d
+ata in this module is over two m
+onths old.  To ensure accurate B
+aseline data, please update: `np
+m i baseline-browser-mapping@lat
+est -D`
+ [1m[92m✓[m Compiled successfully in 2.4s
+ [1m[97m [m Running TypeScript  [36m.[?25l[m[K[32C[7;1H [1m[97m [m Running TypeScript  [36m..[m       [K[32C[6;1H [1m[97m [m Running TypeScript  [36m...[m      [K[32C[5;1H [1m[97m [m Running TypeScript  [36m.[m        [K[32C[4;1H [1m[97m [m Running TypeScript  [36m..[m       [K[32C[3;1H [1m[97m [m Running TypeScript  [36m...[m      [K[32C[2;1H [1m[97m [m Running TypeScript  [36m.[m        [K[32C[H [1m[97m [m Running TypeScript  [36m..[m       [H[K[32C[H [1m[97m [m Running TypeScript  [36m...[m      [H[K[32C[H [1m[97m [m Finished TypeScript in 1746.6
+ [1m[92m✓[m Finished TypeScript in 1746.6
+ms[K
+ [1m[97m [m Collecting page data using 11
+ workers  [36m.[m[K[21C workers  [36m.[m[baseline-browser-map
+ping] The data in this module is
+ over two months old.  To ensure
+ accurate Baseline data, please 
+update: `npm i baseline-browser-
+mapping@latest -D`[14C
+[32C[baseline-browser-mapping] The d
+ata in this module is over two m
+onths old.  To ensure accurate B
+aseline data, please update: `np
+m i baseline-browser-mapping@lat
+est -D`[25C
+[baseline-browser-mapping] The d
+ata in this module is over two m
+onths old.  To ensure accurate B
+aseline data, please update: `np
+m i baseline-browser-mapping@lat
+est -D`[25C
+[baseline-browser-mapping] The d
+ata in this module is over two m
+onths old.  To ensure accurate B
+aseline data, please update: `np
+m i baseline-browser-mapping@lat
+est -D`[25C
+[baseline-browser-mapping] The d
+ata in this module is over two m
+onths old.  To ensure accurate B
+aseline data, please update: `np
+m i baseline-browser-mapping@lat
+est -D`[25C
+[7;1H [1m[97m [m Collecting page data using 11
+ workers  [36m..[m[K[20C[8;13H[baseline-browser-ma
+pping] The data in this module i
+s over two months old.  To ensur
+e accurate Baseline data, please
+ update: `npm i baseline-browser
+-mapping@latest -D`[13C
+[baseline-browser-mapping] The d
+ata in this module is over two m
+onths old.  To ensure accurate B
+aseline data, please update: `np
+m i baseline-browser-mapping@lat
+est -D`[25C
+[32C[K[32C[7;1H [1m[97m [m Collecting page data using 11
+ workers  [36m...[m[K[19C[K[32C[7;1H [1m[97m [m Collecting page data using 11
+ [1m[92m✓[m Collecting page data using 11[?25h
+ workers in 549.2ms
+ [1m[97m [m Generating static pages using[?25l
+ 11 workers (0/7)  [36m[    ][m       [K[32C[7;1H[baseline-browser-mapping] The d
+ata in this module is over two m[?25h
+onths old.  To ensure accurate B
+aseline data, please update: `np
+m i baseline-browser-mapping@lat
+est -D`
+ [1m[92m✓[m Generating static pages using
+ 11 workers (7/7) in 619.8ms    
+ [1m[97m [m Finalizing page optimization [?25l
+ [36m.[m[K[30C[7;1H [1m[97m [m Finalizing page optimization 
+ [1m[92m✓[m Finalizing page optimization [?25h
+in 10.1ms
 
 [4mRoute (app)[24m[K
 ┌ ○ /
@@ -42,5 +104,6 @@ owser-mapping@latest -D`
 └ ○ /signup
 
 
-○  (Static)  prerendered as static content
+○  (Static)  prerendered as stat
+ic content
 

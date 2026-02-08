@@ -1,3 +1,5 @@
-[2J[m[H]0;C:\Windows\system32\cmd.exe [?25h[25l
-> @repo/database@ build D:\STAGE PFE\monorepo\turborepo-with-hono\packages\database
-> tsc --build[70X[5;1H[?25h
+[2J[m[2;1H> @repo/database@ build D:\ST
+AGE PFE\monorepo - Copy\turbo
+repo-with-hono\packages\datab
+ase
+> tsc --build[8;1H]0;C:\Windows\system32\cmd.exe[?25h

@@ -6,8 +6,15 @@ import { resolve } from "node:path";
 export async function createApp() {
     const app = new Hono();
     // CORS first so preflight (OPTIONS) and all responses get correct headers
+    // Allow localhost for development and Vercel domains for production
+    const allowedOrigins = [
+        "http://localhost:3000",
+        "http://localhost:3001",
+        process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "",
+        process.env.NEXT_PUBLIC_WEB_URL || "",
+    ].filter(Boolean);
     app.use("*", cors({
-        origin: ["http://localhost:3000", "http://localhost:3001"],
+        origin: allowedOrigins,
         allowMethods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
         allowHeaders: ["Content-Type", "Authorization"],
         credentials: true,
