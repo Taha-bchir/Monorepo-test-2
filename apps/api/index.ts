@@ -1,6 +1,16 @@
+import { Hono } from 'hono'
 import { handle } from 'hono/vercel'
 import { createApp } from './src/app.js'
 
-const app = await createApp()
+// Create app instance synchronously for Vercel
+let app: Hono | null = null
 
-export default handle(app)
+async function getApp() {
+    if (!app) {
+        app = await createApp()
+    }
+    return app
+}
+
+// Export the handler that Vercel expects
+export default handle(await getApp())
