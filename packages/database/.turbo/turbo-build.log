@@ -1,5 +1,30 @@
-[2J[m[2;1H> @repo/database@ build D:\ST
-AGE PFE\monorepo - Copy\turbo
-repo-with-hono\packages\datab
-ase
-> tsc --build[8;1H]0;C:\Windows\system32\cmd.exe[?25h
+[2J[m[2;1H> @repo/database@ build D:\STA
+GE PFE\monorepo - Copy\turbore
+po-with-hono\packages\database
+> prisma generate && tsc --bui
+ld[8;1H]0;C:\Windows\system32\cmd.exe[?25hLoaded Prisma config from pris
+ma.config.js.
+
+Prisma config detected, skippi
+ng environment variable loadin
+g.
+Prisma schema loaded from pris
+ma\schema.prisma
+
+✔ Generated [1m[97mPrisma Client[m (v6.
+19.2) to .\..\..\node_modules\
+.pnpm\@prisma+client@6.19.2_pr
+isma@6.19.2_typescript@5.8.3__
+typescript@5.8.3\node_modules\
+@prisma\client in 57ms        
+
+Start by importing your Prisma
+ Client (See: https://pris.ly/
+d/importing-client)
+
+Tip: Need your database querie
+s to be 1000x faster? Accelera
+te offers you that and more: h
+ttps://pris.ly/tip-2-accelerat
+e
+
